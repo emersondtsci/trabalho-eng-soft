@@ -1,0 +1,41 @@
+/*RASCUNHO DO BANCO DE DADOS*/
+Login:
+	+ SENHA -> CPF OU CNPJ (NÃO ENCONTREI ESSA PARTE DE CADASTRO)
+	
+/*  */	
+Cadastro - TELA 1:
+	VARCHAR NOME(100),
+	DATE NASCIMENTO,
+	VARCHAR EMAIL(30),
+	VARCHAR TELEFONE(30),
+	VARCHAR CEP(8),
+	VARCHAR RUA(100),
+	VARCHAR BAIRRO(30),
+	VARCHAR NUMERO(10),
+	VARCHAR CIDADE(30),
+	VARCHAR COMPLEMENTO(100);
+
+Cadastro - TELA 2:
+	+ CATEGORIA
+	+ FOTO RG E CPF
+	+ OUTROS ARQUIVOS
+
+Cadastro - TELA 3:	
+	+ SETOR
+	+ SETOR_ANTERIOR
+	+ SEGUNDA_OPCAO
+
+Cadastro - TELA 4:
+	+ PRACA
+	+ OUTRA_PRACA
+	+ OPINIAO
+	
+	
+	
+	Armazenando Imagens no MySQL
+
+BLOB -> pode ser utilizado para realizar 
+o armazenamento de dados binários, podendo 
+estes ser imagens, arquivos pdf, word, 
+além de poder armazenar vídeos, dentre 
+outros formatos.
